@@ -1,7 +1,15 @@
 <div align="center">
-  <h1>1.21.11 Java Item Backport</h2>
-  <img src="src/main/resources/assets/newjavabackport/icon.png" alt="Mod Logo" width="128">
+  <h1>1.21.11 Java Item Backport</h1>
+  <br>
+  <img src="src/main/resources/assets/newjavabackport/icon.png" alt="Mod Logo" width="256">
+  <br><br>
   <p><b>Block & Item Model Backport Layer for Minecraft 1.20.1 (Fabric)</b></p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Minecraft-1.20.1-2EA043?style=for-the-badge&logo=minecraft" alt="Minecraft 1.20.1">
+    <img src="https://img.shields.io/badge/Fabric-%E2%89%A50.16-DBB8FF?style=for-the-badge" alt="Fabric Loader">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License MIT">
+  </p>
 </div>
 
 ## 📖 Overview
