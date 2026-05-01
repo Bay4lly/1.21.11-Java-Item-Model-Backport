@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "io.bay4lly.javablockitem.backport.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"JsonUnbakedModelAccessor"
+	],
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

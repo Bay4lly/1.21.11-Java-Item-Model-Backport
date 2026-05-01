@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "newjavabackport",
+	"version": "${version}",
+	"name": "NewJavaBackport - Block/Item Model Backport",
+	"description": "Compatibility layer that allows Minecraft 1.21.11+ style item/block model JSON formats (including arbitrary rotation angles from Blockbench) to be loaded and rendered in 1.20.1. Works as a library dependency for other mods.",
+	"authors": [
+		"bay4lly"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/bay4lly/NewJavaBackport"
+	},
+	"license": "MIT",
+	"icon": "assets/newjavabackport/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.bay4lly.javablockitem.backport.JavaBlockItemBackport"
+		],
+		"client": [
+			"io.bay4lly.javablockitem.backport.JavaBlockItemBackportClient"
+		]
+	},
+	"mixins": [
+		"newjavabackport.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"badges": [
+				"library",
+				"utility"
+			]
+		}
+	}
+}
