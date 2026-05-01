@@ -36,10 +36,5 @@ public class BackportItems {
                 new Identifier(JavaBlockItemBackport.MOD_ID, "backport_test_item"),
                 BACKPORT_TEST_ITEM
         );
-
-        // Add to the Ingredients creative tab for easy access
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(BACKPORT_TEST_ITEM);
-        });
     }
 }
