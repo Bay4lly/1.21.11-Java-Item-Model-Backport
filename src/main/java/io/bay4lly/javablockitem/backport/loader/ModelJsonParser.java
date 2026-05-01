@@ -222,7 +222,11 @@ public class ModelJsonParser {
     }
 
     private static Identifier resolveIdentifier(String value, String currentNamespace) {
-        if (value.contains(":")) return new Identifier(value);
-        return new Identifier(currentNamespace, value);
+        if (value.contains(":")) {
+            return new Identifier(value);
+        }
+        // Vanilla Minecraft always defaults to "minecraft:" namespace if none is provided.
+        // E.g., "block/diamond_block" -> "minecraft:block/diamond_block"
+        return new Identifier("minecraft", value);
     }
 }
