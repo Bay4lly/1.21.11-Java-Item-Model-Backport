@@ -49,7 +49,7 @@ It does not add any new content by itself but provides the necessary model loadi
 ## 🏗️ Building from Source
 
 To compile the mod yourself:
-1. Clone the repository: `git clone https://github.com/bay4lly/1.21.11-Java-Item-Backport.git`
+1. Clone the repository: `git clone https://github.com/Bay4lly/1.21.11-Java-Item-Model-Backport.git`
 2. Open a terminal in the folder.
 3. Run the Gradle build command:
    ```bash
