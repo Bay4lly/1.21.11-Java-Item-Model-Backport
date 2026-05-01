@@ -34,8 +34,7 @@
 	"custom": {
 		"modmenu": {
 			"badges": [
-				"library",
-				"utility"
+				"library"
 			]
 		}
 	}
